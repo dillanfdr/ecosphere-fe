@@ -48,19 +48,19 @@ function AppContent() {
 
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="login" element={<Login />} />
-        <Route path="inspiration" element={<Inspiration />} />
-        <Route path="inspiration2" element={<Inspiration2 />} />
-        <Route path="article1" element={<Article1 />} />
-        <Route path="article2" element={<Article2 />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/inspiration" element={<Inspiration />} />
+        <Route path="/inspiration2" element={<Inspiration2 />} />
+        <Route path="/article1" element={<Article1 />} />
+        <Route path="/article2" element={<Article2 />} />
         <Route path="/products/:slug" element={<ProductDetail />} />
-        <Route path="property" element={<Property />} />
-        <Route path="forum1" element={<Forum1 />} />
-        <Route path="forum2/:postId" element={<Forum2 />} />
-        <Route path="profile" element={<Profile />} />
-        <Route path="forgotpassword" element={<ForgotPassword />} />
-        <Route path="signup" element={<Signup />} />
-        <Route path="forum1/:id" element={<ForumPost />} />
+        <Route path="/property" element={<Property />} />
+        <Route path="/forum1" element={<Forum1 />} />
+        <Route path="/forum2/:postId" element={<Forum2 />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/forgotpassword" element={<ForgotPassword />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/forum1/:id" element={<ForumPost />} />
       </Routes>
 
       {/* Conditionally show Modal based on isModalOpen */}
